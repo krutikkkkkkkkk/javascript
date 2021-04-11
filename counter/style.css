@@ -1,0 +1,19 @@
+body {
+    background-color: aliceblue;
+    display: grid;
+    place-items: center;
+}
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    font-family: monospace;
+    font-size: 50px;
+}
+button {
+    background-color: transparent;
+    border: 2px solid;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
