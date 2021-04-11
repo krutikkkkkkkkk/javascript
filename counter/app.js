@@ -1,16 +1,15 @@
 let counter  = 0;
-document.getElementById('counter').innerHTML = counter;
 
 function count(clicked_id){
     let id = clicked_id;
 
     if(id == "increase"){
-        counter += 1;
+        counter ++;
         document.getElementById('counter').innerHTML = counter;
 
     }
     else if(id == "decrease"){
-        counter -= 1;
+        counter --;
         document.getElementById('counter').innerHTML = counter;
 
     }
@@ -19,5 +18,19 @@ function count(clicked_id){
         document.getElementById('counter').innerHTML = counter;
 
     }
+    countColor()
 
+}
+
+function countColor(){
+    
+    if( counter > 0) {
+        document.getElementsByTagName('p')[0].style.color = "green";
+    }
+    else if( counter < 0) {
+        document.getElementsByTagName('p')[0].style.color = "red";
+    }
+    else {
+        document.getElementsByTagName('p')[0].style.color = "black";
+    }
 }
