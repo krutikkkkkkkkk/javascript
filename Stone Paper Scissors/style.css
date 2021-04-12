@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(39, 37, 46);
+    display: grid;
+    place-items: center;
+}
+.dashboard {
+    margin-top: 30px;
+    display: inline-flex;
+}
+div {
+    display: grid;
+    place-items: center;
+}
+
+
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border: 5px solid grey;
+
+}
+.choice {
+   height: 100px;
+   width: 100px;
+   background-color: rgb(63, 63, 63);
+   border: 5px solid rgb(19, 87, 189); 
+}
+
