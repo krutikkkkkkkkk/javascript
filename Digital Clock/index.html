@@ -8,11 +8,15 @@
     <link rel="stylesheet" href="style.css">
     <script src="app.js" defer></script>
     <style>
-body{
-    background-color: #222;
-    display: grid;
-    place-items: center;
-    margin: 2rem;
+        body{
+            background-color: #222;
+        }
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    overflow: hidden;
 }
 .container {
     margin: 50px;
@@ -42,13 +46,20 @@ a {
 a:vertical{
     color: #fff;
 }
+footer{
+    position: relative;
+    bottom: 80;
+    text-align: center;
+}
     </style>
 </head>
 <body>
+    <main>
     <div class="container">
   <div id="timeZone"></div>
   <div id="time"></div>
     </div>
+</main>
     <footer>
         <p><a href="https://github.com/reboot13-git/javascript" target="_blank">&copy;reboot13-git/javascript</a></p>
     </footer>
